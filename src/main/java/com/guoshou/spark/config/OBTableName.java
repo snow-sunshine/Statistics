@@ -1,0 +1,25 @@
+package com.guoshou.spark.config;
+
+public enum OBTableName {
+    biz_proc5_biz_parameter,
+    product5_policy,
+    cl_cntr5_std_contract,
+    cl_cntr5_cntr_sub_state,
+    cl_cntr5_if_of_alt,
+    cl_cntap5_branch,
+    cl_biz5_amend_gen_info,
+    cl_biz5_amend_item,
+    cl_biz5_endow_acc,
+    cl_biz5_mio_log,
+    cl_biz5_mtn_alt_cntr,
+    cl_biz5_mtn_osmb_shift,
+    cl_biz5_plnmio_rec,
+    cl_biz5_sg_appl,
+    cl_biz5_statistics_b1,
+    cl_biz5_statistics_b2,
+    cl_biz5_statistics_b3,
+    cl_biz5_statistics_b4,
+    cl_biz5_svr_group,
+    cl_biz5_svr_group_lst,
+    cl_biz5_insur_appl,
+}

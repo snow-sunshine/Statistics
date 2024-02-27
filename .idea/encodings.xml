@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/Process/OB/scriptFile.scala" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/mapper/NB/scriptFile.scala" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/Dto/CountAndSumResult.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/AmendGenInfoString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/BranchString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/CntrSubStateString.java" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/EndowAccString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/IfOfAltString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/MtnAltCntrString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/PlnmioRecString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/PolicyString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/SgApplString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/StatisticsB2String" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/StatisticsB3String.java" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/StatisticsB4String.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/StdContractString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaNB/SvrGroupString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaOB/AmendGenInfoString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaOB/CntrSubStateString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaOB/SgApplString.java" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/guoshou/spark/po/JavaOB/StatisticsB3String.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper/StatisticsB1StringMapper.xml" charset="US-ASCII" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.5.3/mybatis-plus-core-3.5.3.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

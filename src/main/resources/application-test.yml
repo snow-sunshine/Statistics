@@ -1,0 +1,54 @@
+server:
+  port: 9999
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 50
+      minimum-idle: 10
+    dynamic:
+      # 设置默认的数据源或者数据源组,默认值即为master
+      primary: NB
+      # 严格匹配数据源,默认false.true未匹配到指定数据源时抛异常,false使用默认数据源
+      strict: false
+      datasource:
+        NB:
+          url: jdbc:mysql://localhost:3306/tj?characterEncoding=utf-8&useSSL=false
+          driver-class-name: com.mysql.jdbc.Driver
+          username: root
+          password: 123456
+          type: com.zaxxer.hikari.HikariDataSource
+        OB:
+          url: jdbc:mysql://localhost:3306/tjob?characterEncoding=utf-8&useSSL=false
+          driver-class-name: com.mysql.jdbc.Driver
+          username: root
+          password: 123456
+          type: com.zaxxer.hikari.HikariDataSource
+#    type: com.zaxxer.hikari.HikariDataSource
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/tj?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+##    driver-class-name: com.mysql.jc.jdbc.Driver
+#    username: root
+#    password: 123456
+#  datasource:
+#    dynamic:
+#      primary: one
+#      strict: false
+#      datasource:
+#        one:
+#          driver-class-name: com.mysql.jdbc.Driver
+#          url: jdbc:mysql://127.0.0.1:3306/tj?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+#          username: root
+#          password: 123456
+#        tow:
+#          driver-class-name: com.mysql.jdbc.Driver
+#          url: jdbc:mysql://127.0.0.1:3306/tjob?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+#          username: root
+#          password: 123456
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+## 设置日志级别为DEBUG（默认为WARN）
+#logging:
+#  level:
+#    com.baomidou.mybatisplus.mapper: error
